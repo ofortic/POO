@@ -30,6 +30,8 @@ public class OnlineStore {
         Customer c2 = new Customer();
         os.addCustomer(c1);
         os.addCustomer(c2);
+        os.accounts.add(c1.account);
+        os.accounts.add(c2.account);
         
         Product A = new Product();
         Product B = new Product();
